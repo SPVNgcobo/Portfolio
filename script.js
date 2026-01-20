@@ -115,7 +115,7 @@ window.addEventListener('resize', () => {
 
 // Initialize EmailJS
 (function() {
-    emailjs.init("YOUR_PUBLIC_KEY_HERE"); // Replace with your EmailJS public key
+    emailjs.init("lYJb_ReL9UVtvTcz4"); // Replace with your EmailJS public key
 })();
 
 // Contact Form Handler
@@ -142,8 +142,8 @@ form.addEventListener('submit', async (e) => {
     try {
         // Send email via EmailJS
         const response = await emailjs.send(
-            "YOUR_SERVICE_ID_HERE",  // Replace with your service ID
-            "YOUR_TEMPLATE_ID_HERE",  // Replace with your template ID
+            "service_uwbtzhd",  // Replace with your service ID
+            "template_wwk762n",  // Replace with your template ID
             {
                 to_email: "s.p.ngcobo@outlook.com",
                 from_name: formData.name,
