@@ -1,0 +1,37 @@
+# Quick Email Setup Reference
+
+## What You Need
+1. EmailJS account (free)
+2. Your email address (Gmail recommended)
+3. Three IDs from EmailJS dashboard:
+   - Public Key
+   - Service ID
+   - Template ID
+
+## Where to Update
+**File:** `script.js` (lines with YOUR_PUBLIC_KEY_HERE, YOUR_SERVICE_ID_HERE, YOUR_TEMPLATE_ID_HERE)
+
+## The Three Steps
+1. Create EmailJS account at emailjs.com
+2. Set up Email Service (Gmail) and Email Template
+3. Copy your Public Key, Service ID, and Template ID
+4. Paste them into script.js
+
+## Email Template Body
+```
+Name: {{from_name}}
+Email: {{from_email}}
+Company: {{company}}
+Subject: {{subject}}
+
+Message:
+{{message}}
+```
+
+## Test After Setup
+- Fill contact form
+- Click Send Message
+- Check your email inbox
+
+## Need Help?
+See EMAIL_SETUP.md for detailed instructions
